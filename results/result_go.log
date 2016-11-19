@@ -1,0 +1,189 @@
+ 
+========================================================== 
+ 
+====================WARM-UP======================== 
+============Sat Nov 19 10:16:38 CET 2016 Warming up the API with 1000000 requests
+ 
+starting benchmark...
+spawning thread #0: 1 total client(s). 1000000 total requests
+Application protocol: http/1.1
+progress: 10% done
+progress: 20% done
+progress: 30% done
+progress: 40% done
+progress: 50% done
+progress: 60% done
+progress: 70% done
+progress: 80% done
+progress: 90% done
+progress: 100% done
+
+finished in 81.60s, 12255.57 req/s, 8.39MB/s
+requests: 1000000 total, 1000000 started, 1000000 done, 1000000 succeeded, 0 failed, 0 errored, 0 timeout
+status codes: 1000000 2xx, 0 3xx, 0 4xx, 0 5xx
+traffic: 684.74MB (718000000) total, 74.39MB (78000000) headers (space savings 0.00%), 580.79MB (609000000) data
+                     min         max         mean         sd        +/- sd
+time for request:       56us     12.62ms        80us        58us    96.83%
+time for connect:      359us       359us       359us         0us   100.00%
+time to 1st byte:      854us       854us       854us         0us   100.00%
+req/s           :   12255.61    12255.61    12255.61        0.00   100.00%
+ 
+============Sat Nov 19 10:18:00 CET 2016 API warmed up. 
+ 
+====================END WARM-UP======================== 
+=== Sleeping for 2s
+====================BENCHMARK======================== 
+============Sat Nov 19 10:18:02 CET 2016 Running load test ...
+starting benchmark...
+spawning thread #0: 8 total client(s). 250000 total requests
+spawning thread #1: 8 total client(s). 250000 total requests
+spawning thread #2: 8 total client(s). 250000 total requests
+spawning thread #3: 8 total client(s). 250000 total requests
+Application protocol: http/1.1
+progress: 10% done
+progress: 20% done
+progress: 30% done
+progress: 40% done
+progress: 50% done
+progress: 60% done
+progress: 70% done
+ 
+========================================================== 
+ 
+====================WARM-UP======================== 
+============Sat Nov 19 10:18:35 CET 2016 Warming up the API with 100000 requests
+ 
+starting benchmark...
+spawning thread #0: 1 total client(s). 100000 total requests
+Application protocol: http/1.1
+progress: 10% done
+progress: 20% done
+progress: 30% done
+progress: 40% done
+progress: 50% done
+progress: 60% done
+progress: 70% done
+progress: 80% done
+progress: 90% done
+progress: 100% done
+
+finished in 7.81s, 12804.62 req/s, 8.77MB/s
+requests: 100000 total, 100000 started, 100000 done, 100000 succeeded, 0 failed, 0 errored, 0 timeout
+status codes: 100000 2xx, 0 3xx, 0 4xx, 0 5xx
+traffic: 68.47MB (71800000) total, 7.44MB (7800000) headers (space savings 0.00%), 58.08MB (60900000) data
+                     min         max         mean         sd        +/- sd
+time for request:       57us      6.88ms        77us        44us    96.66%
+time for connect:      315us       315us       315us         0us   100.00%
+time to 1st byte:      763us       763us       763us         0us   100.00%
+req/s           :   12804.97    12804.97    12804.97        0.00   100.00%
+ 
+============Sat Nov 19 10:18:43 CET 2016 API warmed up. 
+ 
+====================END WARM-UP======================== 
+=== Sleeping for 2s
+====================BENCHMARK======================== 
+============Sat Nov 19 10:18:45 CET 2016 Running load test ...
+starting benchmark...
+spawning thread #0: 8 total client(s). 25000 total requests
+spawning thread #1: 8 total client(s). 25000 total requests
+spawning thread #2: 8 total client(s). 25000 total requests
+spawning thread #3: 8 total client(s). 25000 total requests
+Application protocol: http/1.1
+progress: 10% done
+progress: 20% done
+progress: 30% done
+progress: 40% done
+progress: 50% done
+progress: 60% done
+progress: 70% done
+progress: 80% done
+progress: 90% done
+progress: 100% done
+
+finished in 3.07s, 32625.64 req/s, 22.34MB/s
+requests: 100000 total, 100000 started, 100000 done, 100000 succeeded, 0 failed, 0 errored, 0 timeout
+status codes: 100000 2xx, 0 3xx, 0 4xx, 0 5xx
+traffic: 68.47MB (71800000) total, 7.44MB (7800000) headers (space savings 0.00%), 58.08MB (60900000) data
+                     min         max         mean         sd        +/- sd
+time for request:       64us     77.42ms       923us      1.78ms    97.06%
+time for connect:      111us      1.01ms       491us       238us    62.50%
+time to 1st byte:     1.11ms     14.08ms      6.77ms      4.50ms    56.25%
+req/s           :    1020.27     1253.16     1084.32       64.02    84.38%
+ 
+============Sat Nov 19 10:18:48 CET 2016 Done ...
+ 
+====================END BENCHMARK======================== 
+ 
+ 
+ 
+ 
+ 
+========================================================== 
+ 
+====================WARM-UP======================== 
+============Sat Nov 19 10:19:12 CET 2016 Warming up the API with 100000 requests
+ 
+starting benchmark...
+spawning thread #0: 1 total client(s). 100000 total requests
+Application protocol: http/1.1
+progress: 10% done
+progress: 20% done
+progress: 30% done
+progress: 40% done
+progress: 50% done
+progress: 60% done
+progress: 70% done
+progress: 80% done
+progress: 90% done
+progress: 100% done
+
+finished in 8.20s, 12189.63 req/s, 8.35MB/s
+requests: 100000 total, 100000 started, 100000 done, 100000 succeeded, 0 failed, 0 errored, 0 timeout
+status codes: 100000 2xx, 0 3xx, 0 4xx, 0 5xx
+traffic: 68.47MB (71800000) total, 7.44MB (7800000) headers (space savings 0.00%), 58.08MB (60900000) data
+                     min         max         mean         sd        +/- sd
+time for request:       58us      4.38ms        81us        37us    94.55%
+time for connect:      363us       363us       363us         0us   100.00%
+time to 1st byte:      672us       672us       672us         0us   100.00%
+req/s           :   12189.99    12189.99    12189.99        0.00   100.00%
+ 
+============Sat Nov 19 10:19:21 CET 2016 API warmed up. 
+ 
+====================END WARM-UP======================== 
+=== Sleeping for 2s
+====================BENCHMARK======================== 
+============Sat Nov 19 10:19:23 CET 2016 Running load test ...
+starting benchmark...
+spawning thread #0: 8 total client(s). 25000 total requests
+spawning thread #1: 8 total client(s). 25000 total requests
+spawning thread #2: 8 total client(s). 25000 total requests
+spawning thread #3: 8 total client(s). 25000 total requests
+Application protocol: http/1.1
+progress: 10% done
+progress: 20% done
+progress: 30% done
+progress: 40% done
+progress: 50% done
+progress: 60% done
+progress: 70% done
+progress: 80% done
+progress: 90% done
+progress: 100% done
+
+finished in 3.02s, 33113.61 req/s, 22.67MB/s
+requests: 100000 total, 100000 started, 100000 done, 100000 succeeded, 0 failed, 0 errored, 0 timeout
+status codes: 100000 2xx, 0 3xx, 0 4xx, 0 5xx
+traffic: 68.47MB (71800000) total, 7.44MB (7800000) headers (space savings 0.00%), 58.08MB (60900000) data
+                     min         max         mean         sd        +/- sd
+time for request:       67us     80.14ms       927us      1.89ms    97.33%
+time for connect:      101us      1.41ms       484us       299us    81.25%
+time to 1st byte:     1.07ms     15.87ms      6.90ms      5.11ms    71.88%
+req/s           :    1035.29     1215.78     1078.66       44.95    84.38%
+ 
+============Sat Nov 19 10:19:26 CET 2016 Done ...
+ 
+====================END BENCHMARK======================== 
+ 
+ 
+ 
+ 

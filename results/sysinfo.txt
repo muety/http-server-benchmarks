@@ -1,0 +1,29 @@
+===CPU:
+model name	: Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+cpu cores	: 2
+model name	: Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+cpu cores	: 2
+model name	: Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+cpu cores	: 2
+model name	: Intel(R) Core(TM) i5-3317U CPU @ 1.70GHz
+cpu cores	: 2
+ 
+===RAM: 
+             total       used       free     shared    buffers     cached
+Mem:          7.7G       6.3G       1.4G       412M       527M       2.4G
+-/+ buffers/cache:       3.3G       4.3G
+Swap:         5.6G         0B       5.6G
+
+===Java version: 
+java version "1.8.0_101"
+Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
+ 
+===OS: 
+Linux ferdinand-notebook 3.16.0-4-amd64 #1 SMP Debian 3.16.36-1+deb8u2 (2016-10-19) x86_64 GNU/Linux
+
+===Node: 
+v6.5.0
+
+=== Go: 
+go version go1.7.3 linux/amd64
