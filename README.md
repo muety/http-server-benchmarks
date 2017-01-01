@@ -24,7 +24,7 @@ Currently, I included server implementations in __Java__ (using [Jersey](http://
 ## Java vs. Go vs. Node
 Running this benchmark suite gave me the following results. To read more details about my test setup etc., please refer to [this article](https://medium.com/@n1try/http-performance-java-jersey-vs-go-vs-nodejs-1d86f646a03c#.pvw2u1i35).
 
-![](https://cdn-images-1.medium.com/max/1200/1*lPQ_ZshX8ibYl0l0wsOTEw.png)
+![](https://anchr.io/i/dmqdu.png)
 
 ## License
 MIT @ [Ferdinand Mütsch](https://ferdinand-muetsch.de)
