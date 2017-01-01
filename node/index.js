@@ -1,4 +1,5 @@
-const http = require('http');
+const http = require('http')
+    , cluster = require('cluster');
 
 const todos = [
     { title: "Do some stuff", createdAt: new Date() },
@@ -11,11 +12,17 @@ const todos = [
     { title: "Dolor sit amet", createdAt: new Date() }
 ];
 
-http.createServer((req, res) => {
-    switch (req.url) {
-        case '/rest/todo':
-            res.setHeader('content-type', 'application/json');
-            res.end(JSON.stringify(todos));
-            break;
-    }
-}).listen(8080);
+if (cluster.isMaster) {
+    let cpuCount = require('os').cpus().length;
+    for (let i = 0; i < cpuCount; i += 1) cluster.fork();
+}
+else {
+    http.createServer((req, res) => {
+        switch (req.url) {
+            case '/rest/todo':
+                res.setHeader('content-type', 'application/json');
+                res.end(JSON.stringify(todos));
+                break;
+        }
+    }).listen(8080);
+}

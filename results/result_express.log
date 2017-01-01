@@ -2,7 +2,7 @@
 ========================================================== 
  
 ====================WARM-UP======================== 
-============Sat Nov 19 10:21:36 CET 2016 Warming up the API with 100000 requests
+============So 1. Jan 19:38:33 CET 2017 Warming up the API with 100000 requests
  
 starting benchmark...
 spawning thread #0: 1 total client(s). 100000 total requests
@@ -18,22 +18,22 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 18.94s, 5280.47 req/s, 3.68MB/s
+finished in 21.62s, 4624.75 req/s, 3.22MB/s
 requests: 100000 total, 100000 started, 100000 done, 100000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 100000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 69.71MB (73100000) total, 15.83MB (16600000) headers (space savings 0.00%), 49.78MB (52200000) data
                      min         max         mean         sd        +/- sd
-time for request:      157us     40.01ms       188us       150us    99.02%
-time for connect:      368us       368us       368us         0us   100.00%
-time to 1st byte:    40.39ms     40.39ms     40.39ms         0us   100.00%
-req/s           :    5280.54     5280.54     5280.54        0.00   100.00%
+time for request:      164us     17.99ms       215us       142us    97.03%
+time for connect:      214us       214us       214us         0us   100.00%
+time to 1st byte:    18.22ms     18.22ms     18.22ms         0us   100.00%
+req/s           :    4624.84     4624.84     4624.84        0.00   100.00%
  
-============Sat Nov 19 10:21:55 CET 2016 API warmed up. 
+============So 1. Jan 19:38:54 CET 2017 API warmed up. 
  
 ====================END WARM-UP======================== 
 === Sleeping for 2s
 ====================BENCHMARK======================== 
-============Sat Nov 19 10:21:57 CET 2016 Running load test ...
+============So 1. Jan 19:38:56 CET 2017 Running load test ...
 starting benchmark...
 spawning thread #0: 8 total client(s). 25000 total requests
 spawning thread #1: 8 total client(s). 25000 total requests
@@ -51,17 +51,17 @@ progress: 80% done
 progress: 90% done
 progress: 100% done
 
-finished in 17.80s, 5616.87 req/s, 3.92MB/s
+finished in 13.26s, 7543.65 req/s, 5.26MB/s
 requests: 100000 total, 100000 started, 100000 done, 100000 succeeded, 0 failed, 0 errored, 0 timeout
 status codes: 100000 2xx, 0 3xx, 0 4xx, 0 5xx
 traffic: 69.71MB (73100000) total, 15.83MB (16600000) headers (space savings 0.00%), 49.78MB (52200000) data
                      min         max         mean         sd        +/- sd
-time for request:      612us     27.09ms      5.69ms       542us    94.23%
-time for connect:       76us      2.11ms       802us       535us    68.75%
-time to 1st byte:    10.66ms     27.16ms     19.52ms      4.88ms    56.25%
-req/s           :     175.54      175.66      175.62        0.04    78.13%
+time for request:      208us     67.97ms      3.52ms      2.21ms    90.35%
+time for connect:       64us      1.16ms       342us       285us    87.50%
+time to 1st byte:     7.07ms     68.05ms     45.26ms     16.99ms    75.00%
+req/s           :     235.91      351.52      291.84       47.03    40.63%
  
-============Sat Nov 19 10:22:15 CET 2016 Done ...
+============So 1. Jan 19:39:09 CET 2017 Done ...
  
 ====================END BENCHMARK======================== 
  

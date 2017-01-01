@@ -1,4 +1,5 @@
-const app = require('express')();
+const app = require('express')()
+    , cluster = require('cluster');
 
 const todos = [
     { title: "Do some stuff", createdAt: new Date() },
@@ -11,8 +12,14 @@ const todos = [
     { title: "Dolor sit amet", createdAt: new Date() }
 ];
 
-app.get('/rest/todo', function (req, res) {
-    res.json(todos);
-})
+if (cluster.isMaster) {
+    let cpuCount = require('os').cpus().length;
+    for (let i = 0; i < cpuCount; i += 1) cluster.fork();
+}
+else {
+    app.get('/rest/todo', function (req, res) {
+        res.json(todos);
+    })
 
-app.listen(8080);
+    app.listen(8080);
+}
